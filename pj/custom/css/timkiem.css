@@ -1,0 +1,49 @@
+html {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.searchTerm {
+
+    width: 60%;
+    border: 3px solid #11c7df;
+    border-right: none;
+    padding: 5px;
+    height: 35px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus {
+    color: #000000;
+}
+
+.searchButton {
+    width: 100px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.wrap {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
